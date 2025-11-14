@@ -21,5 +21,8 @@ class WashingMachine:
 
 def test():
     # TODO: create one instance of class WashingMachine, send arguments: int value 13 and String value "Eve"
+    machine = WashingMachine(13, "Eve")
     # TODO: call method "set_mode()" and send argument "Spin"
+    machine.set_mode("Spin")
     # TODO: return the instance
+    return machine
